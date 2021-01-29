@@ -1,0 +1,47 @@
+{
+  "pages": ["pages/data/main",
+    "pages/index/main",
+    
+    "pages/history/main",
+    "pages/mine/main",
+    "pages/aboutour/main"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#1EDE8F",
+    "navigationBarTitleText": "体检宝",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#000000",
+    "selectedColor": "#37C1FF",
+    "list": [
+      {
+        "pagePath": "pages/index/main",
+        "text": "首页",
+        "iconPath": "static/images/home.png",
+        "selectedIconPath": "static/images/home-active.png"
+      },
+      {
+        "pagePath": "pages/history/main",
+        "text": "历年报告",
+        "iconPath": "static/images/report.png",
+        "selectedIconPath": "static/images/report-active.png"
+      },
+      {
+        "pagePath": "pages/mine/main",
+        "text": "个人中心",
+        "iconPath": "static/images/mine.png",
+        "selectedIconPath": "static/images/mine-active.png"
+      }
+    ]
+  },
+  "usingComponents": {
+    "van-image": "/static/vant/image/index",
+    "van-cell": "/static/vant/cell/index",
+    "van-cell-group": "/static/vant/cell-group/index",
+    "van-dialog": "/static/vant/dialog/index",
+    "van-field": "/static/vant/field/index",
+    "van-icon": "/static/vant/icon/index"
+  }
+}
